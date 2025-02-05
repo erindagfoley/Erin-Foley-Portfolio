@@ -1,7 +1,7 @@
 export default function Blog() {
   return (
     <div>
-      <h1>Resume</h1>
+      <h2>Resume</h2>
       <p>
         Resume will go here
       </p>
