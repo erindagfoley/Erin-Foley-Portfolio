@@ -1,7 +1,53 @@
+@import "tailwindcss";
+
 body {
   margin: 0;
 }
 
 main {
   min-height: calc(100vh - 150px);
+}
+
+h2 {
+  padding: 1rem;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list{
+  list-style: none;
+  display: flex;
+
+}
+/* COMPUTER SCREEN */
+@media screen and (min-width: 993px) {
+  .card {
+    width: 25%;
+  }
+
+}
+
+
+/* TABLET SCREEN */
+@media screen and (max-width: 992px) {
+  .nav{
+    display: block;
+  }
+  .nav-list{
+    width:100%;
+  }
+  .card {
+    width: 50%;
+  }
+
+}
+
+/* CELLPHONE SCREEN */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }

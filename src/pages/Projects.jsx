@@ -40,17 +40,20 @@ export default function Projects() {
     },
   ]
   return (
-    <div>
+    <div className="project-loop">
       <h2>My Projects</h2>
+      <section className="flex flex-wrap">
+
       {projectLoop.map((project, index) => (
         <ProjectCard
-          key={index}
-          title={project.title}
-          image={project.image}
-          deployedLink={project.deployedLink}
-          githubLink={project.githubLink}
+        key={index}
+        title={project.title}
+        image={project.image}
+        deployedLink={project.deployedLink}
+        githubLink={project.githubLink}
         />
       ))}
+      </section>
     </div>
   );
 }
