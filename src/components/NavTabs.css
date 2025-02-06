@@ -1,13 +1,26 @@
 .header {
     padding-left: 20px;
     padding-right: 800px;
+    padding-top: 1cqh;
+    color: rgb(243, 134, 185);
+    font-family: "Gill Sans", sans-serif;
 }
 
 .nav-item {
     font-family: "Gill Sans", sans-serif;
+    background-color: #ffffff00;
 }
+
 
 .nav {
-    height: 70px;
+    font-family: "Gill Sans", sans-serif;
+    background-image: linear-gradient(rgb(90, 89, 89), rgb(151, 151, 150));
+    padding-top: 1cqh;
 }
 
+.nav-link {
+    font-family: "Gill Sans", sans-serif;
+    background-color: #bf8585;
+    padding-bottom:15px;
+    margin-top: 10px;
+}

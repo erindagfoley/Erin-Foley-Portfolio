@@ -8,11 +8,13 @@ function NavTabs() {
 
   return (
     <ul className="nav nav-tabs">
-        <li>
+      <li>
         <header className="header">
-        <h1>Erin Foley</h1>
-    </header>
-        </li>
+          {/* style={{color: 'blue'}} */}
+          <h1>Erin Foley</h1>
+        </header>
+      </li>
+      <ul className='nav-list'>
       <li className="nav-item">
         <Link
           to="/"
@@ -50,6 +52,7 @@ function NavTabs() {
           Contact
         </Link>
       </li>
+      </ul>
     </ul>
   );
 }
