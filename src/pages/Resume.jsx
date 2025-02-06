@@ -2,9 +2,9 @@ export default function Blog() {
   return (
     <div>
       <h2>Resume</h2>
-      <p>
-        Resume will go here
-      </p>
+        <a href="/Erin Foley Resume (soon to change).pdf" download>
+          Click here to download
+        </a>
       <h3>Front End Proficiencies</h3>
         <ul>
             <li>HTML</li>

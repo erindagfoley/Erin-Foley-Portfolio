@@ -42,9 +42,6 @@ export default function Projects() {
   return (
     <div>
       <h2>My Projects</h2>
-      <p>
-        Projects will go here
-      </p>
       {projectLoop.map((project, index) => (
         <ProjectCard
           key={index}
