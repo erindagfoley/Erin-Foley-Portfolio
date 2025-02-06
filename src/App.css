@@ -13,6 +13,19 @@ h2 {
   font-family: "Gill Sans", sans-serif;
 }
 
+h3 {
+  padding: 1rem;
+  font-family: "Gill Sans", sans-serif;
+}
+
+li {
+  font-family: "Georgia", Times, serif;
+}
+
+a {
+  font-family: "Georgia", Times, serif;
+}
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -30,6 +43,10 @@ h2 {
 
 }
 
+p {
+  font-family: "Georgia", Times, serif;
+  font-size: 18px;
+}
 
 /* TABLET SCREEN */
 @media screen and (max-width: 992px) {

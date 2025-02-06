@@ -2,7 +2,7 @@
     padding-left: 20px;
     padding-right: 800px;
     padding-top: 1cqh;
-    color: rgb(243, 134, 185);
+    color: rgb(252, 252, 252);
     font-family: "Gill Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@
 
 .nav-link {
     font-family: "Gill Sans", sans-serif;
-    background-color: #bf8585;
+    background-image: linear-gradient(rgb(184, 182, 182), rgb(151, 151, 150));
     padding-bottom:15px;
     margin-top: 10px;
 }

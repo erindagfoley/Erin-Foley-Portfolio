@@ -1,6 +1,10 @@
 .footer {
-    background-color: aqua;
+    background-image: linear-gradient(rgb(90, 89, 89), rgb(151, 151, 150));
     font-family: "Gill Sans", sans-serif;
     text-align: center;
     height: 80px;
+}
+
+.footer-link {
+    color:rgb(255, 255, 255)
 }
