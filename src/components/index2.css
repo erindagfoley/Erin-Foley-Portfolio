@@ -1,0 +1,15 @@
+.header {
+    padding-left: 20px;
+    padding-right: 800px;
+}
+
+.nav-item {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.footer {
+    background-color: aqua;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
