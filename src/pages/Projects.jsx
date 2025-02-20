@@ -15,30 +15,6 @@ export default function Projects() {
       deployedLink: "https://pantrypal-otuv.onrender.com/",
       githubLink: "https://github.com/erindagfoley/PantryPal"
     },
-    {
-      title: "VoyageOne Monson Meadows Lodge",
-      image: MonsonMeadowsLodge,
-      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
-      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
-    },
-    {
-      title: "VoyageOne Monson Meadows Lodge",
-      image: MonsonMeadowsLodge,
-      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
-      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
-    },
-    {
-      title: "VoyageOne Monson Meadows Lodge",
-      image: MonsonMeadowsLodge,
-      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
-      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
-    },
-    {
-      title: "VoyageOne Monson Meadows Lodge",
-      image: MonsonMeadowsLodge,
-      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
-      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
-    },
   ]
   return (
     <div className="project-loop">
