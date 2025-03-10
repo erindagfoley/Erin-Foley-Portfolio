@@ -1,10 +1,30 @@
+/* Ensure the parent container takes up at least the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flexbox container to push the footer to the bottom */
+#root { /* Replace #root with the appropriate parent container if needed */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+}
+
+/* Main content area */
+.main-content {
+    flex: 1; /* Allow the main content to grow and fill the available space */
+}
+
+/* Footer styles */
 .footer {
     background-image: linear-gradient(rgb(90, 89, 89), rgb(151, 151, 150));
     font-family: "Gill Sans", sans-serif;
     text-align: center;
     height: 80px;
+    flex-shrink: 0; /* Prevent the footer from shrinking */
 }
 
 .footer-link {
-    color:rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
