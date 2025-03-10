@@ -1,24 +1,41 @@
 import CodeImage from '../assets/close-up-of-programming-code-on-screen.jpg';
 
-export default function Blog({ imagePosition = 'right' }) { // Default position is 'right'
+export default function Blog({ imagePosition = 'right' }) {
   return (
     <div>
-      {/* Resume section */}
-      <div>
-        <h2 style={{ paddingTop: '3.5rem'}}>Resume</h2>
-        <a
-          className="resume-link"
-          style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
-          href="/Erin Foley Resume (soon to change).pdf"
-          download
-        >
-          Click here to download
-        </a>
-        <br />
-        <br />
+      {/* Flex container for Resume section and image */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'flex-start', // Align items at the top
+          gap: '2rem', // Space between Resume section and image
+          marginTop: '2rem', // Add some top margin
+        }}
+      >
+        {/* Resume section */}
+        <div>
+          <h2 style={{ paddingTop: '3.5rem' }}>Resume</h2>
+          <a
+            className="resume-link"
+            style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
+            href="/Erin Foley Resume (soon to change).pdf"
+            download
+          >
+            Click here to download
+          </a>
+          <br />
+          <br />
+        </div>
+
+        {/* Image to the right of the Resume section */}
+        <img
+          src={CodeImage}
+          alt="Programming code"
+          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
+        />
       </div>
 
-      {/* Flex container for Technical Languages section */}
+      {/* Technical Languages section */}
       <div
         style={{
           display: 'flex',
@@ -41,14 +58,9 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>Python</li>
           </ul>
         </div>
-        {/* Image */}
-        <img
-          src={CodeImage}
-          alt="Programming code"
-          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
-        />
       </div>
 
+      {/* Applications section */}
       <h2>Applications</h2>
       <ul>
         <li className="application" style={{ paddingLeft: '4rem' }}>PostgreSQL</li>
