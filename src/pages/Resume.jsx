@@ -41,13 +41,7 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>Python</li>
           </ul>
         </div>
-        {/* Image */}
-        <img
-          src={CodeImage}
-          alt="Programming code"
-          style={{ width: '400px', height: 'auto', borderRadius: '8px' }}
-        />
-      </div>
+
 
       <h2>Applications</h2>
       <ul>
