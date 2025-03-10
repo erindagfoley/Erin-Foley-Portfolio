@@ -1,42 +1,31 @@
 import CodeImage from '../assets/close-up-of-programming-code-on-screen.jpg';
 
-export default function Blog({ imagePosition = 'right' }) {
+export default function Blog({ imagePosition = 'right' }) { // Default position is 'right'
   return (
     <div>
-      {/* Flex container for Resume section and image */}
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'flex-start', // Align items at the top
-          gap: '2rem', // Space between Resume section and image
-          marginTop: '2rem', // Add some top margin
-        }}
-      >
-        {/* Resume section */}
-        <div>
-          <h2 style={{ paddingTop: '3.5rem' }}>Resume</h2>
-          <a
-            className="resume-link"
-            style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
-            href="/Erin Foley Resume (soon to change).pdf"
-            download
-          >
-            Click here to download
-          </a>
-          <br />
-          <br />
-        </div>
+      {/* Resume section */}
+      <div>
+        <h2 style={{ paddingTop: '3.5rem'}}>Resume</h2>
+        <a
+          className="resume-link"
+          style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
+          href="/Erin Foley Resume (soon to change).pdf"
+          download
+        >
+          Click here to download
+        </a>
+        <br />
+        <br />
+      </div>
 
-
-
-      {/* Technical Languages section */}
+      {/* Flex container for Technical Languages section */}
       <div
         style={{
           display: 'flex',
           alignItems: 'flex-start',
           gap: '25rem',
+          marginTop: '2rem',
           width: '2000px',
-          margin-top: '0rem',
           flexDirection: imagePosition === 'left' ? 'row-reverse' : 'row', // Control image position
         }}
       >
@@ -52,9 +41,14 @@ export default function Blog({ imagePosition = 'right' }) {
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>Python</li>
           </ul>
         </div>
+        {/* Image */}
+        <img
+          src={CodeImage}
+          alt="Programming code"
+          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
+        />
       </div>
 
-      {/* Applications section */}
       <h2>Applications</h2>
       <ul>
         <li className="application" style={{ paddingLeft: '4rem' }}>PostgreSQL</li>
@@ -70,3 +64,4 @@ export default function Blog({ imagePosition = 'right' }) {
     </div>
   );
 }
+
