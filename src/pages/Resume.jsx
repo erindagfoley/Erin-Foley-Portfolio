@@ -45,7 +45,7 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
         <img
           src={CodeImage}
           alt="Programming code"
-          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
+          style={{ width: '400px', height: 'auto', borderRadius: '8px' }}
         />
       </div>
 
