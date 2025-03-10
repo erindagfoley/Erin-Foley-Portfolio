@@ -10,20 +10,25 @@ main {
 
 h2 {
   padding: 1rem;
-  font-family: "Gill Sans", sans-serif;
+  padding-left: 70px;
+  font-family: "Gill Sans", sans-serif; font-size: 40px;
 }
 
 h3 {
   padding: 1rem;
   font-family: "Gill Sans", sans-serif;
+  
 }
 
 li {
   font-family: "Georgia", Times, serif;
+  font-size: 20px;
+  
 }
 
 a {
   font-family: "Georgia", Times, serif;
+  font-size: 18px;
 }
 
 .nav{
