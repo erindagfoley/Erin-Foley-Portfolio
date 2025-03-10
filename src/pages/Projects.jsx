@@ -26,7 +26,7 @@ export default function Projects() {
     {
       title: "Book Search Engine",
       image: BookSearch,
-      deployedLink: "https://github.com/erindagfoley/Book-search-engine",
+      deployedLink: "https://book-search-engine-tt83.onrender.com/",
       githubLink: "https://github.com/erindagfoley/kanban-board"
     },
   ]
