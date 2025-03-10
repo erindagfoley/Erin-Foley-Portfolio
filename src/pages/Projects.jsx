@@ -1,6 +1,8 @@
 import ProjectCard from "../components/ProjectCard";
 import MonsonMeadowsLodge from "../assets/Monson-Meadows-Lodge-thumbnail.png"
 import PantryPal from "../assets/Pantry-Pal-thumbnail.png"
+import Kanban from "../assets/Kanban-thumbnail.png"
+import BookSearch from "../assets/BookSearch-thumbnail.png"
 export default function Projects() {
   const projectLoop = [
     {
@@ -14,6 +16,18 @@ export default function Projects() {
       image: PantryPal,
       deployedLink: "https://pantrypal-otuv.onrender.com/",
       githubLink: "https://github.com/erindagfoley/PantryPal"
+    },
+    {
+      title: "Kanban Board",
+      image: Kanban,
+      deployedLink: "https://kanban-board-rz0w.onrender.com",
+      githubLink: "https://github.com/erindagfoley/kanban-board"
+    },
+    {
+      title: "Book Search Engine",
+      image: BookSearch,
+      deployedLink: "https://github.com/erindagfoley/Book-search-engine",
+      githubLink: "https://github.com/erindagfoley/kanban-board"
     },
   ]
   return (
