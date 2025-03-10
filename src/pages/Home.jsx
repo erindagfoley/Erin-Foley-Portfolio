@@ -12,7 +12,7 @@ function MyComponent() {
       <img
         src={MeImage}
         alt="A picture of me"
-        style={{ width: '500px', height: 'auto' }}
+        style={{ width: '480px', height: 'auto' }}
       />
     </div>
   );
