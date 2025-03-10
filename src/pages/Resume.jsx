@@ -41,7 +41,6 @@ export default function Blog({ imagePosition = 'right' }) {
           display: 'flex',
           alignItems: 'flex-start',
           gap: '25rem',
-          marginTop: '2rem',
           width: '2000px',
           flexDirection: imagePosition === 'left' ? 'row-reverse' : 'row', // Control image position
         }}
