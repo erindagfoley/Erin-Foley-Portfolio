@@ -7,8 +7,8 @@ export default function Blog({ imagePosition = 'right' }) {
         <a
           className="resume-link"
           style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
-          href="/E. Foley Resume.pdf"
-          download
+          href="/E. Foley Resume.pdf" // Ensure this path points to the correct PDF file
+          download="E. Foley Resume.pdf" // Specify the filename for the downloaded file
         >
           Click here to download
         </a>
