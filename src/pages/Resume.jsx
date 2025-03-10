@@ -1,11 +1,9 @@
-import CodeImage from '../assets/close-up-of-programming-code-on-screen.jpg';
-
-export default function Blog({ imagePosition = 'right' }) { // Default position is 'right'
+export default function Blog({ imagePosition = 'right' }) {
   return (
     <div>
       {/* Resume section */}
       <div>
-        <h2 style={{ paddingTop: '3.5rem'}}>Resume</h2>
+        <h2 style={{ paddingTop: '3.5rem' }}>Resume</h2>
         <a
           className="resume-link"
           style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
@@ -18,7 +16,7 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
         <br />
       </div>
 
-      {/* Flex container for Technical Languages section */}
+      {/* Technical Languages section */}
       <div
         style={{
           display: 'flex',
@@ -26,7 +24,7 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
           gap: '25rem',
           marginTop: '0rem',
           width: '2000px',
-          flexDirection: imagePosition === 'left' ? 'row-reverse' : 'row', // Control image position
+          flexDirection: imagePosition === 'left' ? 'row-reverse' : 'row', // Control text position
         }}
       >
         <div>
@@ -41,8 +39,9 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>Python</li>
           </ul>
         </div>
+      </div>
 
-
+      {/* Applications section */}
       <h2>Applications</h2>
       <ul>
         <li className="application" style={{ paddingLeft: '4rem' }}>PostgreSQL</li>
@@ -58,4 +57,3 @@ export default function Blog({ imagePosition = 'right' }) { // Default position 
     </div>
   );
 }
-
