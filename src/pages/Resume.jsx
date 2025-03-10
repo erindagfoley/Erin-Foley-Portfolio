@@ -7,7 +7,7 @@ export default function Blog({ imagePosition = 'right' }) {
         <a
           className="resume-link"
           style={{ paddingLeft: '4.4rem', fontSize: '22px' }}
-          href="/Erin Foley Resume (soon to change).pdf"
+          href="/E. Foley Resume.pdf"
           download
         >
           Click here to download
