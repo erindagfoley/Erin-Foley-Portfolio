@@ -27,13 +27,7 @@ export default function Blog({ imagePosition = 'right' }) {
           <br />
         </div>
 
-        {/* Image to the right of the Resume section */}
-        <img
-          src={CodeImage}
-          alt="Programming code"
-          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
-        />
-      </div>
+
 
       {/* Technical Languages section */}
       <div
@@ -48,6 +42,13 @@ export default function Blog({ imagePosition = 'right' }) {
       >
         <div>
           <h2>Technical Languages</h2>
+                  {/* Image to the right of the Resume section */}
+        <img
+          src={CodeImage}
+          alt="Programming code"
+          style={{ width: '600px', height: 'auto', borderRadius: '8px' }}
+        />
+      </div>
           <ul>
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>JavaScript</li>
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>TypeScript</li>
