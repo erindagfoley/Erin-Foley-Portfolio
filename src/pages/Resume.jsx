@@ -37,6 +37,7 @@ export default function Blog({ imagePosition = 'right' }) {
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>HTML</li>
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>CSS</li>
             <li className="tech-language" style={{ paddingLeft: '4rem' }}>Python</li>
+            <li className="tech-language" style={{ paddingLeft: '4rem' }}>Java</li>
           </ul>
         </div>
       </div>

@@ -1,15 +1,15 @@
 import ProjectCard from "../components/ProjectCard";
+import FitHappens from "../assets/FitHappens";
 import MonsonMeadowsLodge from "../assets/Monson-Meadows-Lodge-thumbnail.png"
 import PantryPal from "../assets/Pantry-Pal-thumbnail.png"
 import Kanban from "../assets/Kanban-thumbnail.png"
-import BookSearch from "../assets/BookSearch-thumbnail.png"
 export default function Projects() {
   const projectLoop = [
     {
-      title: "VoyageOne Monson Meadows Lodge",
-      image: MonsonMeadowsLodge,
-      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
-      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
+      title: "FIT Happens",
+      image: FitHappens,
+      deployedLink: "https://fit-happens.onrender.com/",
+      githubLink: "https://github.com/erindagfoley/FIT-Happens"
     },
     {
       title: "PantryPal",
@@ -18,16 +18,16 @@ export default function Projects() {
       githubLink: "https://github.com/erindagfoley/PantryPal"
     },
     {
+      title: "VoyageOne Monson Meadows Lodge",
+      image: MonsonMeadowsLodge,
+      deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
+      githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
+    },
+    {
       title: "Kanban Board",
       image: Kanban,
       deployedLink: "https://kanban-board-rz0w.onrender.com",
       githubLink: "https://github.com/erindagfoley/kanban-board"
-    },
-    {
-      title: "Book Search Engine",
-      image: BookSearch,
-      deployedLink: "https://book-search-engine-tt83.onrender.com/",
-      githubLink: "https://github.com/erindagfoley/Book-search-engine"
     },
   ]
   return (
