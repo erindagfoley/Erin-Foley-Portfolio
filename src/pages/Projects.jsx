@@ -2,7 +2,6 @@ import ProjectCard from "../components/ProjectCard";
 import FitHappens from "../assets/FIT-Happens-thumbnail.png";
 import MonsonMeadowsLodge from "../assets/Monson-Meadows-Lodge-thumbnail.png"
 import PantryPal from "../assets/Pantry-Pal-thumbnail.png"
-import Kanban from "../assets/Kanban-thumbnail.png"
 export default function Projects() {
   const projectLoop = [
     {
@@ -22,12 +21,6 @@ export default function Projects() {
       image: MonsonMeadowsLodge,
       deployedLink: "https://wick000.github.io/Monson-Meadows-Lodge/",
       githubLink: "https://github.com/erindagfoley/Monson-Meadows-Lodge.git"
-    },
-    {
-      title: "Kanban Board",
-      image: Kanban,
-      deployedLink: "https://kanban-board-rz0w.onrender.com",
-      githubLink: "https://github.com/erindagfoley/kanban-board"
     },
   ]
   return (
