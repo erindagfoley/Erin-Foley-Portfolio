@@ -1,5 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
-import FitHappens from "../assets/FitHappens";
+import FitHappens from "../assets/FitHappens-thumbnail.png";
 import MonsonMeadowsLodge from "../assets/Monson-Meadows-Lodge-thumbnail.png"
 import PantryPal from "../assets/Pantry-Pal-thumbnail.png"
 import Kanban from "../assets/Kanban-thumbnail.png"
